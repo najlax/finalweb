@@ -1,0 +1,10 @@
+{% extends "layouts/base.html"%}
+{% load static %}
+{%block title %} Landing Page {% endblock title %}
+{% block content%}
+
+<h3 class="welcome"> Welcome to Najla's page</h3>
+<img href="C:\Users\HUAWEI\djangopro\finalexam\apps\static\game.jpg">
+<a href="{% url 'games-list' %}">Go to List of games</a>
+
+{%endblock content%}
